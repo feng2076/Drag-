@@ -33,6 +33,8 @@ Drag.prototype = {
 			this.elem = document.getElementById(selector);
 			// console.log(this.getStatusElem());
 			this.dragStart();
+			// 实现链式调用
+			return this;
 		}else{
 			// 不是我们要的 选择器对象 我们实现容错
 			console.error('is not my need param');

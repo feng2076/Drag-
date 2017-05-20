@@ -10,7 +10,8 @@
 <body>
 	<script>
 	var div = document.getElementById('div');
-	Drag('div');
+	var Drag = 'mingming';
+
 	// var t = getElemStyle(div,'transform');
 	// console.log(t);
 	// console.log(t.match(/-?\d+/g))
@@ -43,6 +44,11 @@
 			
 
 		// })
+	</script>
+	<script src='drag1.js'></script>
+	<script>
+			Drag('div').returnDrag();
+			console.log(Drag)
 	</script>
 </body>
 </html>
