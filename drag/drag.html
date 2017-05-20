@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- // <script src='drag.js'></script> -->
+	<script src='drag1.js'></script>
+</head>
+<div id='div' style='height:100px;width:100px;background:red;'></div>
+<body>
+	<script>
+	var div = document.getElementById('div');
+	Drag('div');
+	// var t = getElemStyle(div,'transform');
+	// console.log(t);
+	// console.log(t.match(/-?\d+/g))
+		// optCss();
+		// div.onclick = function(){
+			// dragTo(div,{x:200,y:200});
+		// }
+		// var flag = false;
+		// div.addEventListener('mousedown',function(e){
+		// 	// flag = true;
+		// 	// 获取到我们的 初始鼠标按下去的位置
+		// 	var obj = getMousePosition(e);
+		// 	var startx = obj.x,starty = obj.y; 
+		// 	// 获取到我们  元素的初始位置；
+		// 	var obj2 = dragStart(div);
+		// 	var elx = obj2.x,ely = obj2.y;
+		// 	document.addEventListener('mousemove',start,false);
+		// 	document.addEventListener('mouseup',end,false);
+		// 	function start(e){
+		// 		var obj = getMousePosition(e);
+		// 		var currentx = obj.x,currenty = obj.y;
+		// 		var newx = currentx - startx,newy = currenty - starty;
+		// 		dragTo(div,{x:newx+elx,y:newy+ely});
+		// 	}
+		// 	function end(){
+		// 		document.removeEventListener('mousemove',start);
+		// 		document.removeEventListener('mouseup',end);
+		// 		console.log(143);
+		// 	}
+			
+
+		// })
+	</script>
+</body>
+</html>
